@@ -8,15 +8,13 @@ ul {
   list-style: none;
 }
 
+p {
+  margin: 0;
+}
+
 html {
   font-family: Arial, sans-serif;
   font-size: 16px;
-}
-
-.header {
-  text-align: center;
-  background-color: rgba(22, 22, 23, 0.8);
-  backdrop-filter: saturate(180%) blur(20px);
 }
 
 .nav__list {
@@ -41,4 +39,44 @@ html {
 
 .nav__link:hover {
   color: coral;
+}
+
+img {
+  display: block;
+}
+
+.promo {
+  width: 100%;
+  height: 200px;
+
+  background-image: url("https://mate-academy.github.io/fe-program/assets/MA_top.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  background-color: rgba(22, 22, 23, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.main {
+  padding: 40px;
+  background-color: antiquewhite;
+}
+
+.main-text {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.footer {
+  height: 250px;
+  background-color: silver;
 }
